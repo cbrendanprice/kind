@@ -22,10 +22,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"sigs.k8s.io/kind/pkg/cmd"
-	deletecluster "sigs.k8s.io/kind/pkg/cmd/kind/delete/cluster"
-	deleteclusters "sigs.k8s.io/kind/pkg/cmd/kind/delete/clusters"
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/cbrendanprice/kind/pkg/cmd"
+	deletecluster "github.com/cbrendanprice/kind/pkg/cmd/kind/delete/cluster"
+	deleteclusters "github.com/cbrendanprice/kind/pkg/cmd/kind/delete/clusters"
+	"github.com/cbrendanprice/kind/pkg/log"
 )
 
 // NewCommand returns a new cobra.Command for cluster deletion

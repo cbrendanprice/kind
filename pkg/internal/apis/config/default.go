@@ -21,8 +21,8 @@ limitations under the License.
 package config
 
 import (
-	"sigs.k8s.io/kind/pkg/apis/config/defaults"
-	"sigs.k8s.io/kind/pkg/cluster/constants"
+	"github.com/cbrendanprice/kind/pkg/apis/config/defaults"
+	"github.com/cbrendanprice/kind/pkg/cluster/constants"
 )
 
 // SetDefaultsCluster sets uninitialized fields to their default value.

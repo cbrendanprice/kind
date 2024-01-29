@@ -21,20 +21,20 @@ import (
 	"path/filepath"
 	"sort"
 
-	"sigs.k8s.io/kind/pkg/cmd/kind/version"
+	"github.com/cbrendanprice/kind/pkg/cmd/kind/version"
 
-	"sigs.k8s.io/kind/pkg/cluster/constants"
-	"sigs.k8s.io/kind/pkg/cluster/nodes"
-	"sigs.k8s.io/kind/pkg/cluster/nodeutils"
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/cbrendanprice/kind/pkg/cluster/constants"
+	"github.com/cbrendanprice/kind/pkg/cluster/nodes"
+	"github.com/cbrendanprice/kind/pkg/cluster/nodeutils"
+	"github.com/cbrendanprice/kind/pkg/errors"
+	"github.com/cbrendanprice/kind/pkg/log"
 
-	internalcreate "sigs.k8s.io/kind/pkg/cluster/internal/create"
-	internaldelete "sigs.k8s.io/kind/pkg/cluster/internal/delete"
-	"sigs.k8s.io/kind/pkg/cluster/internal/kubeconfig"
-	internalproviders "sigs.k8s.io/kind/pkg/cluster/internal/providers"
-	"sigs.k8s.io/kind/pkg/cluster/internal/providers/docker"
-	"sigs.k8s.io/kind/pkg/cluster/internal/providers/podman"
+	internalcreate "github.com/cbrendanprice/kind/pkg/cluster/internal/create"
+	internaldelete "github.com/cbrendanprice/kind/pkg/cluster/internal/delete"
+	"github.com/cbrendanprice/kind/pkg/cluster/internal/kubeconfig"
+	internalproviders "github.com/cbrendanprice/kind/pkg/cluster/internal/providers"
+	"github.com/cbrendanprice/kind/pkg/cluster/internal/providers/docker"
+	"github.com/cbrendanprice/kind/pkg/cluster/internal/providers/podman"
 )
 
 // DefaultName is the default cluster name

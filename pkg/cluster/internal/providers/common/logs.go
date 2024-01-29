@@ -4,9 +4,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"sigs.k8s.io/kind/pkg/cluster/nodes"
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/exec"
+	"github.com/cbrendanprice/kind/pkg/cluster/nodes"
+	"github.com/cbrendanprice/kind/pkg/errors"
+	"github.com/cbrendanprice/kind/pkg/exec"
 )
 
 // CollectLogs provides the common functionality

@@ -22,8 +22,8 @@ import (
 	"io"
 	"strings"
 
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/exec"
+	"github.com/cbrendanprice/kind/pkg/errors"
+	"github.com/cbrendanprice/kind/pkg/exec"
 )
 
 // nodes.Node implementation for the podman provider

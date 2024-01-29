@@ -17,10 +17,10 @@ limitations under the License.
 package providers
 
 import (
-	"sigs.k8s.io/kind/pkg/cluster/nodes"
+	"github.com/cbrendanprice/kind/pkg/cluster/nodes"
 
-	"sigs.k8s.io/kind/pkg/internal/apis/config"
-	"sigs.k8s.io/kind/pkg/internal/cli"
+	"github.com/cbrendanprice/kind/pkg/internal/apis/config"
+	"github.com/cbrendanprice/kind/pkg/internal/cli"
 )
 
 // Provider represents a provider of cluster / node infrastructure

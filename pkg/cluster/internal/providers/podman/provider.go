@@ -25,19 +25,19 @@ import (
 	"strconv"
 	"strings"
 
-	"sigs.k8s.io/kind/pkg/cluster/nodes"
-	"sigs.k8s.io/kind/pkg/cluster/nodeutils"
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/exec"
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/cbrendanprice/kind/pkg/cluster/nodes"
+	"github.com/cbrendanprice/kind/pkg/cluster/nodeutils"
+	"github.com/cbrendanprice/kind/pkg/errors"
+	"github.com/cbrendanprice/kind/pkg/exec"
+	"github.com/cbrendanprice/kind/pkg/log"
 
-	internallogs "sigs.k8s.io/kind/pkg/cluster/internal/logs"
-	"sigs.k8s.io/kind/pkg/cluster/internal/providers"
-	"sigs.k8s.io/kind/pkg/cluster/internal/providers/common"
-	"sigs.k8s.io/kind/pkg/internal/apis/config"
-	"sigs.k8s.io/kind/pkg/internal/cli"
-	"sigs.k8s.io/kind/pkg/internal/sets"
-	"sigs.k8s.io/kind/pkg/internal/version"
+	internallogs "github.com/cbrendanprice/kind/pkg/cluster/internal/logs"
+	"github.com/cbrendanprice/kind/pkg/cluster/internal/providers"
+	"github.com/cbrendanprice/kind/pkg/cluster/internal/providers/common"
+	"github.com/cbrendanprice/kind/pkg/internal/apis/config"
+	"github.com/cbrendanprice/kind/pkg/internal/cli"
+	"github.com/cbrendanprice/kind/pkg/internal/sets"
+	"github.com/cbrendanprice/kind/pkg/internal/version"
 )
 
 // NewProvider returns a new provider based on executing `podman ...`

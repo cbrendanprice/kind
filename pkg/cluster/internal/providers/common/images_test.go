@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"testing"
 
-	"sigs.k8s.io/kind/pkg/internal/apis/config"
-	"sigs.k8s.io/kind/pkg/internal/sets"
+	"github.com/cbrendanprice/kind/pkg/internal/apis/config"
+	"github.com/cbrendanprice/kind/pkg/internal/sets"
 )
 
 func TestRequiredNodeImages(t *testing.T) {

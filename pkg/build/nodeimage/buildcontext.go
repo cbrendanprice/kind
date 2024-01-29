@@ -24,14 +24,14 @@ import (
 	"strings"
 	"time"
 
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/exec"
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/cbrendanprice/kind/pkg/errors"
+	"github.com/cbrendanprice/kind/pkg/exec"
+	"github.com/cbrendanprice/kind/pkg/log"
 
-	"sigs.k8s.io/kind/pkg/build/nodeimage/internal/container/docker"
-	"sigs.k8s.io/kind/pkg/build/nodeimage/internal/kube"
-	"sigs.k8s.io/kind/pkg/internal/sets"
-	"sigs.k8s.io/kind/pkg/internal/version"
+	"github.com/cbrendanprice/kind/pkg/build/nodeimage/internal/container/docker"
+	"github.com/cbrendanprice/kind/pkg/build/nodeimage/internal/kube"
+	"github.com/cbrendanprice/kind/pkg/internal/sets"
+	"github.com/cbrendanprice/kind/pkg/internal/version"
 )
 
 // buildContext is used to build the kind node image, and contains

@@ -22,9 +22,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"sigs.k8s.io/kind/pkg/cmd"
-	createcluster "sigs.k8s.io/kind/pkg/cmd/kind/create/cluster"
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/cbrendanprice/kind/pkg/cmd"
+	createcluster "github.com/cbrendanprice/kind/pkg/cmd/kind/create/cluster"
+	"github.com/cbrendanprice/kind/pkg/log"
 )
 
 // NewCommand returns a new cobra.Command for cluster creation

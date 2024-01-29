@@ -19,10 +19,10 @@ package nodeimage
 import (
 	"github.com/spf13/cobra"
 
-	"sigs.k8s.io/kind/pkg/build/nodeimage"
-	"sigs.k8s.io/kind/pkg/cmd"
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/cbrendanprice/kind/pkg/build/nodeimage"
+	"github.com/cbrendanprice/kind/pkg/cmd"
+	"github.com/cbrendanprice/kind/pkg/errors"
+	"github.com/cbrendanprice/kind/pkg/log"
 )
 
 type flagpole struct {

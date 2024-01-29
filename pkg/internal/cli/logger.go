@@ -25,9 +25,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/cbrendanprice/kind/pkg/log"
 
-	"sigs.k8s.io/kind/pkg/internal/env"
+	"github.com/cbrendanprice/kind/pkg/internal/env"
 )
 
 // Logger is the kind cli's log.Logger implementation

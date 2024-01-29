@@ -24,10 +24,10 @@ import (
 	"regexp"
 	"testing"
 
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/exec"
+	"github.com/cbrendanprice/kind/pkg/errors"
+	"github.com/cbrendanprice/kind/pkg/exec"
 
-	"sigs.k8s.io/kind/pkg/internal/integration"
+	"github.com/cbrendanprice/kind/pkg/internal/integration"
 )
 
 func TestIntegrationEnsureNetworkConcurrent(t *testing.T) {

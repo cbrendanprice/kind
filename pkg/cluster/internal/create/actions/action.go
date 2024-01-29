@@ -19,12 +19,12 @@ package actions
 import (
 	"sync"
 
-	"sigs.k8s.io/kind/pkg/cluster/nodes"
-	"sigs.k8s.io/kind/pkg/internal/apis/config"
-	"sigs.k8s.io/kind/pkg/internal/cli"
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/cbrendanprice/kind/pkg/cluster/nodes"
+	"github.com/cbrendanprice/kind/pkg/internal/apis/config"
+	"github.com/cbrendanprice/kind/pkg/internal/cli"
+	"github.com/cbrendanprice/kind/pkg/log"
 
-	"sigs.k8s.io/kind/pkg/cluster/internal/providers"
+	"github.com/cbrendanprice/kind/pkg/cluster/internal/providers"
 )
 
 // Action defines a step of bringing up a kind cluster after initial node

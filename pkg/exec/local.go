@@ -23,7 +23,7 @@ import (
 	osexec "os/exec"
 	"sync"
 
-	"sigs.k8s.io/kind/pkg/errors"
+	"github.com/cbrendanprice/kind/pkg/errors"
 )
 
 // LocalCmd wraps os/exec.Cmd, implementing the kind/pkg/exec.Cmd interface

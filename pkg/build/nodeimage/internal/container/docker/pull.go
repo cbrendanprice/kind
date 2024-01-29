@@ -19,8 +19,8 @@ package docker
 import (
 	"time"
 
-	"sigs.k8s.io/kind/pkg/exec"
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/cbrendanprice/kind/pkg/exec"
+	"github.com/cbrendanprice/kind/pkg/log"
 )
 
 // Pull pulls an image, retrying up to retries times

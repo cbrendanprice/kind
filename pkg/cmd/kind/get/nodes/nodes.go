@@ -22,13 +22,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"sigs.k8s.io/kind/pkg/cluster"
-	"sigs.k8s.io/kind/pkg/cluster/nodes"
-	"sigs.k8s.io/kind/pkg/cmd"
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/cbrendanprice/kind/pkg/cluster"
+	"github.com/cbrendanprice/kind/pkg/cluster/nodes"
+	"github.com/cbrendanprice/kind/pkg/cmd"
+	"github.com/cbrendanprice/kind/pkg/log"
 
-	"sigs.k8s.io/kind/pkg/internal/cli"
-	"sigs.k8s.io/kind/pkg/internal/runtime"
+	"github.com/cbrendanprice/kind/pkg/internal/cli"
+	"github.com/cbrendanprice/kind/pkg/internal/runtime"
 )
 
 type flagpole struct {

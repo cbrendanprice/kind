@@ -17,11 +17,11 @@ limitations under the License.
 package delete
 
 import (
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/cbrendanprice/kind/pkg/errors"
+	"github.com/cbrendanprice/kind/pkg/log"
 
-	"sigs.k8s.io/kind/pkg/cluster/internal/kubeconfig"
-	"sigs.k8s.io/kind/pkg/cluster/internal/providers"
+	"github.com/cbrendanprice/kind/pkg/cluster/internal/kubeconfig"
+	"github.com/cbrendanprice/kind/pkg/cluster/internal/providers"
 )
 
 // Cluster deletes the cluster identified by ctx

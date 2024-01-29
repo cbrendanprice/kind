@@ -19,7 +19,7 @@ package kubeconfig
 import (
 	"os"
 
-	"sigs.k8s.io/kind/pkg/errors"
+	"github.com/cbrendanprice/kind/pkg/errors"
 )
 
 // WriteMerged writes a kind kubeconfig (see KINDFromRawKubeadm) into configPath

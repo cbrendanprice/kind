@@ -19,9 +19,9 @@ package nodeimage
 import (
 	"runtime"
 
-	"sigs.k8s.io/kind/pkg/build/nodeimage/internal/kube"
-	"sigs.k8s.io/kind/pkg/errors"
-	"sigs.k8s.io/kind/pkg/log"
+	"github.com/cbrendanprice/kind/pkg/build/nodeimage/internal/kube"
+	"github.com/cbrendanprice/kind/pkg/errors"
+	"github.com/cbrendanprice/kind/pkg/log"
 )
 
 // Build builds a node image using the supplied options
