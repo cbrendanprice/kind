@@ -147,7 +147,7 @@ type Node struct {
 	KubeadmConfigPatchesJSON6902 []PatchJSON6902 `yaml:"kubeadmConfigPatchesJSON6902,omitempty" json:"kubeadmConfigPatchesJSON6902,omitempty"`
 
 	// Gpus passes GPUs through to the node
-	Gpus bool `yaml:"gpus,omitempty"`
+	Gpus bool `yaml:"gpus,omitempty" json:"gpus,omitempty"`
 }
 
 // NodeRole defines possible role for nodes in a Kubernetes cluster managed by `kind`
